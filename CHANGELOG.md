@@ -6,6 +6,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Extending the adopted spec, each change should have a link to its corresponding pull request appended.
 
+## [28.0.0](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/compare/v27.0.0...v28.0.0) (2023-08-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* Add support for disk_size and disk_type for cluster_autoscaling. ([#1693](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1693))
+
+### Features
+
+* Add support for disk_size and disk_type for cluster_autoscaling. ([#1693](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1693)) ([fd233e5](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/fd233e5cddd9098b6e6520b0671eb16f77a5c187))
+* promote config_connector_config to ga ([#1559](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1559)) ([ae63848](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/ae6384899909cea52f1f50a140d7c85b335b64eb))
+
+
+### Bug Fixes
+
+* random zones only when zones are not provided ([#1709](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1709)) ([50ea965](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/50ea96505135c390e64482e4af053ee1191697a7))
+
 ## [27.0.0](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/compare/v26.1.1...v27.0.0) (2023-06-29)
 
 
